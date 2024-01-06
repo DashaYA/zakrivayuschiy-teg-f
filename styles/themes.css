@@ -6,7 +6,7 @@
 */
 
 :root.theme-light {
-    --accent-font: 'PressStart2P-Regular', monospace;
+    --accent-font: 'PressStart2P-Regular', "fantasy";
     --main-font: 'Inter-Variable', sans-serif;
     --main-font-weight: 400;
     --title-font-weight: 700;
@@ -24,7 +24,7 @@
 }
 
 :root.theme-dark {
-    --accent-font: 'PressStart2P-Regular', monospace;
+    --accent-font: 'PressStart2P-Regular', "fantasy";
     --main-font: 'Inter-Variable', sans-serif;
     --main-font-weight: 465;
     --title-font-weight: 785;
@@ -42,8 +42,8 @@
 }
 
 @media (prefers-color-scheme: dark) {
-    :root.theme-auto {
-        --accent-font: 'PressStart2P-Regular', monospace;
+    :root {
+        --accent-font: 'PressStart2P-Regular', "fantasy";
         --main-font: 'Inter-Variable', sans-serif;
         --main-font-weight: 465;
         --title-font-weight: 785;
