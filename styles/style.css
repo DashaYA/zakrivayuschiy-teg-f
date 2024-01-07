@@ -52,6 +52,9 @@
   margin-block-start: clamp(7.5rem, 7.1479rem + 1.5023vw, 8.5rem);
   font-weight: 400;
   text-decoration: none;
+  text-decoration: none;
+  outline: none;
+  /*или советуют в Дока outline-color: transparent;*/
 }
 
 .header-title {
@@ -270,7 +273,7 @@
   scale: 0 1;
   transform-origin: left;
   transition: scale 0.5s ease-in-out;
-} 
+}
 
 /*лайк, сохранить на память, ок*/
 .button__text {
